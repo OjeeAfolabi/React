@@ -1,0 +1,14 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Building Efficient APIs with Express.js",
+      "author": "James Carter"
+    },
+    {
+      "id": 2,
+      "title": "A Beginner’s Guide to React State Management",
+      "author": "Mia Robertson"
+    }
+  ]
+}
