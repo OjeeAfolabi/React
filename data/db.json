@@ -9,6 +9,11 @@
       "id": 2,
       "title": "A Beginner’s Guide to React State Management",
       "author": "Mia Robertson"
+    },
+    {
+      "id": 3,
+      "title": "HTML and CSS Starter Course",
+      "author": "Mosh Hamedani"
     }
   ]
 }
