@@ -3,17 +3,20 @@
     {
       "id": 1,
       "title": "Building Efficient APIs with Express.js",
-      "author": "James Carter"
+      "author": "James Carter",
+      "body": "This blog explores how to build efficient, scalable, and maintainable APIs using Express.js. It covers best practices for routing, middleware setup, error handling, and optimization techniques to improve performance. You will learn how to structure your Express applications for clarity and reusability, integrate third-party libraries, handle asynchronous operations, and secure your endpoints. The post also discusses strategies for debugging and testing your APIs to ensure reliability. By following this guide, developers can create APIs that are not only fast and robust but also easy to maintain and extend as application requirements grow."
     },
     {
       "id": 2,
       "title": "A Beginner’s Guide to React State Management",
-      "author": "Mia Robertson"
+      "author": "Mia Robertson",
+      "body": "In this blog, we provide a comprehensive guide to managing state in React applications, starting from basic concepts to more advanced patterns. You will learn how to use the useState and useReducer hooks effectively, handle complex state logic, and avoid common pitfalls. The guide also introduces the context API for global state management and explains when and how to integrate third-party libraries like Redux or Zustand. Practical examples demonstrate how to manage component-level and application-level state efficiently. By the end, beginners will understand how to keep their React applications organized, maintainable, and performant while handling dynamic user interactions seamlessly."
     },
     {
       "id": 3,
       "title": "HTML and CSS Starter Course",
-      "author": "Mosh Hamedani"
+      "author": "Mosh Hamedani",
+      "body": "This starter course provides a solid foundation for beginners to learn HTML and CSS from scratch. It covers the basic structure of HTML documents, including headings, paragraphs, links, images, and lists. The course also dives into CSS fundamentals such as selectors, properties, the box model, and positioning. Additionally, it explains how to create responsive layouts using Flexbox and Grid, style text and elements, and apply colors, backgrounds, and borders. By following the examples and exercises, learners will gain the skills to build attractive, structured, and responsive web pages. This blog is ideal for anyone starting their web development journey."
     }
   ]
 }

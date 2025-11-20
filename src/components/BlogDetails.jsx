@@ -4,21 +4,16 @@ import useFetch from "../useFetch";
 
 const BlogDetails = () => {
   const { id } = useParams();
-  const {
-    data: blog,
-    error,
-    loading,
-  } = useFetch("http://localhost:3000/blogs/" + id);
+  const [data, error, loading] = useFetch("http://localhost:3000/blogs/" + id);
   return (
     <div className="blog-details">
       {loading && <p>Loading ...</p>}
       {error && <p>{error}</p>}
-
-      {blog && (
+      {data && (
         <article>
-          <h2>{blog.title}</h2>
-          <p>{blog.body}</p>
-          <p>Written by: {blog.author}</p>
+          <h2>{data.title}</h2>
+          <p>Written by: {data.author}</p>
+          <div>{data.body}</div>
         </article>
       )}
     </div>
